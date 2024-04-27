@@ -1,0 +1,12 @@
+name: Spawn
+version: '${project.version}'
+main: ch.ksrminecraft.spawn.Spawn
+api-version: '1.20'
+commands:
+  setspawn:
+    description: Setzt einen Spawn-Point
+    usage: /<command>
+    permission: spawn.setspawn
+  spawn:
+    description: Telepotiert dich zum Spawn-Point
+    usage: /<command>
